@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "name": "Armani Veni Vidi Vici",
+    "description": "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    "slug": "armani-veni-vidi-vici",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-11.png",
+      "original": "/assets/images/products/p-11-m.png"
+    },
+    "price": 20.00,
+    "sale_price": 17.99
+  },
+  {
+    "id": 2,
+    "name": "H&M Global Desi",
+    "description": "Blue solid woven regular top, curved hem with tassell detailing has shoulder straps, and sleeveless",
+    "slug": "hm-global-desi",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-22.png",
+      "original": "/assets/images/products/p-22-m.png"
+    },
+    "price": 40.00,
+    "sale_price": 30.00
+  },
+  {
+    "id": 3,
+    "name": "Zara Solly White Shirt",
+    "description": "For a chic and smart look, don this white shirt from Solly by Allen Solly. Crafted from a cotton-nylon blend with a hint of stretch, this design features a dotted pattern. Wear this 3/4th sleeves shirt with trousers and wedges to a client meeting.",
+    "slug": "zara-solly-white-shirt",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-18.png",
+      "original": "/assets/images/products/p-18-m.png"
+    },
+    "price": 32.00,
+    "sale_price": 25.00
+  },
+  {
+    "id": 4,
+    "name": "Hermes  Carlton London",
+    "description": "Off-White self-striped knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
+    "slug": "hermes-carlton-london",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-14.png",
+      "original": "/assets/images/products/p-14-m.png"
+    },
+    "price": "",
+    "sale_price": 15.00
+  },
+  {
+    "id": 5,
+    "name": "Scuba Stand Collar Topper Jacket",
+    "description": "Zara provides only the highest-quality selection of dresses, womens suits, and suited separates.",
+    "slug": "scuba-stand-collar-topper-jacket",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-15.png",
+      "original": "/assets/images/products/p-15-m.png"
+    },
+    "price": 16.00,
+    "sale_price": 12.00
+  },
+  {
+    "id": 6,
+    "name": "Armani Wide-Leg Trousers",
+    "description": "Monochrome elegance. Made with a relaxed wide-leg, these trousers are made from a sustainable soft organic cotton with a mechanical stretch making the garment easily recycled.",
+    "slug": "armani-wide-leg-trousers",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-16.png",
+      "original": "/assets/images/products/p-16-m.png"
+    },
+    "price": 80.00,
+    "sale_price": 60.00
+  },
+  {
+    "id": 7,
+    "name": "Short Sleeve Shirts For Men",
+    "description": "From casual days out to parties, dinners and other events that call for a dressier look, a short sleeve shirt is a versatile piece that works for all kinds of occasions.",
+    "slug": "short-sleeve-shirts-for-men",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-17.png",
+      "original": "/assets/images/products/p-17-m.png"
+    },
+    "price": 18.99,
+    "sale_price": 12.99
+  },
+  {
+    "id": 8,
+    "name": "Blazer And A Neck Scarf",
+    "description": "blue short sleeve basic midi dress featuring a crew neckline in a jersey fabric.",
+    "slug": "blazer-and-a-neck-scarf",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-13.png",
+      "original": "/assets/images/products/p-13-m.png"
+    },
+    "price": 23.00,
+    "sale_price": 13.00
+  },
+  {
+    "id": 9,
+    "name": "Zara Shoes Green",
+    "description": "Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature.",
+    "slug": "zara-shoes-green",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-19.png",
+      "original": "/assets/images/products/p-19-m.png"
+    },
+    "price": 300.00,
+    "sale_price": 250.00
+  },
+  {
+    "id": 10,
+    "name": "Maniac Red Boys",
+    "description": "Sporty essentials, these Under Armour athletic shorts are smooth and lightweight in moisture-wicking material.",
+    "slug": "hermes-carlton-london",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-20.png",
+      "original": "/assets/images/products/p-20-m.png"
+    },
+    "price": 20.00,
+    "sale_price": 15.00
+  },
+  {
+    "id": 11,
+    "name": "Nike Black",
+    "description": "Casual wear (casual attire or clothing) may be a Western code that’s relaxed, occasional, spontaneous and fitted to everyday use. Casual wear became popular within the Western world",
+    "slug": "nike-black",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-1.png",
+      "original": "/assets/images/products/p-1-m.png"
+    },
+    "price": 15.00,
+    "sale_price": 11.00
+  },
+  {
+    "id": 12,
+    "name": "Hermes  Carlton London",
+    "description": "Off-White self-striped knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
+    "slug": "hermes-carlton-london",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-2.png",
+      "original": "/assets/images/products/p-2-m.png"
+    },
+
+    "price": 16.38,
+    "sale_price": 12.3
+  },
+  {
+    "id": 13,
+    "name": "Gucci Carlton UK",
+    "description": "Knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
+    "slug": "gucci-carlton-uk",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-8.png",
+      "original": "/assets/images/products/p-8-m.png"
+    },
+    "price": 19.99,
+    "sale_price": 14.99
+  },
+  {
+    "id": 14,
+    "name": "Regular Fit Flannel Shirt",
+    "description": "The garments labelled as Committed are products that have been produced using sustainable fibers or processes, reducing their environmental impact. Mango's goal is to support the implementation of practices more committed to the environment.",
+    "slug": "regular-fit-flannel-shirt",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-4.png",
+      "original": "/assets/images/products/p-4-m.png"
+    },
+    "price": "",
+    "sale_price": 8.00
+  },
+  {
+    "id": 15,
+    "name": "12 Eco-Friendly Clothing Brands That",
+    "description": "12 Eco-Friendly Clothing Brands That, has a scoop neck, sleeveless, straight hem",
+    "slug": "eco-friendly-clothing-brands-that",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-5.png",
+      "original": "/assets/images/products/p-5-m.png"
+    },
+    "price": 28.00,
+    "sale_price": 20.00
+  },
+  {
+    "id": 16,
+    "name": "Oversized W Sweater",
+    "description": "Constructed in cotton sweat fabric, this lovely piece, lacus eu mattis auctor, dolor lectus venenatis nulla, at tristique eros sem vel ante. Sed leo enim, iaculis ornare tristique non, vulputate sit amet ante.",
+    "slug": "oversized-w-sweater",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-6.png",
+      "original": "/assets/images/products/p-6-m.png"
+    },
+    "price": 70.00,
+    "sale_price": 55.00
+  },
+  {
+    "id": 17,
+    "name": "Regular Fit Crew-neck T-shirt",
+    "description": "Self-striped knitted midi A-line dress, has a scoop neck, T-shirt, straight hem",
+    "slug": "regular-fit-crew-neck-t-shirt",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-7.png",
+      "original": "/assets/images/products/p-7-m.png"
+    },
+    "price": 16.38,
+    "sale_price": 12.3
+  },
+  {
+    "id": 18,
+    "name": "Zara Shoes Green",
+    "description": "Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature.",
+    "slug": "zara-shoes-green",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-3.png",
+      "original": "/assets/images/products/p-3-m.png"
+    },
+    "price": "",
+    "sale_price": 50.00
+  },
+  {
+    "id": 19,
+    "name": "Women Fitted Neck T-Shirt",
+    "description": "All about the crisp cut and exceptional quality of the cotton, the Women Fitted V Neck Rib L/S T-Shirt won’t be one you’ll be tossing away ever.",
+    "slug": "women-fitted-neck-t-shirt",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-9.png",
+      "original": "/assets/images/products/p-9-m.png"
+    },
+    "price": 30.00,
+    "sale_price": 28.00
+  },
+  {
+    "id": 20,
+    "name": "NIKE Shoes",
+    "description": "NIKE 2020 Black White is a clean and monochromatic colourway of the label’s latest high-technology silhouette. The model first launched late last year and is currently Jordan Brand’s flagship performance pair.",
+    "slug": "nike-shoes",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-10.png",
+      "original": "/assets/images/products/p-10-m.png"
+    },
+    "price": "",
+    "sale_price": 39.99
+  }
+]
