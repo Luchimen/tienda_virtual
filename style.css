@@ -1,61 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    display: flex;
+body {
+  display: flex;
 }
-.container{
-    width: 75%;
+.container {
+  width: 75%;
 }
 
-.navbar{
-    width: 100%;
-    background-color: steelblue;
-    height: 70px;
-    display: flex;
-    align-items: center;
+.navbar {
+  width: 100%;
+  background-color: #124559;
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
-.navbar__logo{
-    margin-left: 15px;
-    width: 10%;
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
+.navbar__logo {
+  margin-left: 15px;
+  width: 10%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
 }
-.navbar__form{
-    margin-left: 30px;
-    width: 70%;
-    align-self: center;
+.navbar__form {
+  margin-left: 30px;
+  width: 70%;
+  align-self: center;
 }
-.form__input{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
+.form__input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
 }
-.aside{
-    width: 25%;
-    padding: 20px;
-    height: 100vh;
-    background-color: aqua;
+.aside {
+  width: 25%;
+  padding: 20px;
+  height: 100vh;
+  background-color: #eff6e0;
 }
-.gridImages{
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 
-  repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-rows: 250px;
-  gap: 10px;
+.gridImages {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 400px;
+  gap: 40px;
 }
-.card{
-    background-color: bisque;
+.card {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.aside h2{
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 0 0 20px 0;
-
+.card__img {
+  width: 100%;
+  height: 80%;
+}
+.card__textContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aside h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 0 20px 0;
 }
