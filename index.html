@@ -14,57 +14,7 @@
           <input class="form__input" type="text" />
         </form>
       </nav>
-      <main class="gridImages" id="gridImages">
-        <section class="card">
-          <img src="./assets/images/products/p-11-m.png" alt="Imagen de prueba" class="card__img"/>
-          <div class="card__textContainer">  <h3>Nombre de producto</h3>
-          <p>Descripcion</p>
-          <p>Precio</p>
-        </div>   
-        </section>
-        <section class="card">
-          <img src="./assets/images/products/p-11-m.png" alt="Imagen de prueba" class="card__img"/>
-          <div class="card__textContainer">  <h3>Nombre de producto</h3>
-          <p>Descripcion</p>
-          <p>Precio</p>
-        </div>
-        </section>
-        <section class="card">
-          <img src="./assets/images/products/p-11-m.png" alt="Imagen de prueba" class="card__img"/>
-          <div class="card__textContainer">  <h3>Nombre de producto</h3>
-          <p>Descripcion</p>
-          <p>Precio</p>
-        </div>     
-        </section>
-        <section class="card">
-        <img src="./assets/images/products/p-11-m.png" alt="Imagen de prueba" class="card__img"/>
-        <div class="card__textContainer">  <h3>Nombre de producto</h3>
-        <p>Descripcion</p>
-        <p>Precio</p>
-        </div>
-        </section>
-        <section class="card">
-      <img src="./assets/images/products/p-11-m.png" alt="Imagen de prueba" class="card__img"/>
-      <div class="card__textContainer">  <h3>Nombre de producto</h3>
-      <p>Descripcion</p>
-      <p>Precio</p>
-    </div>
-        </section>
-        <section class="card">
-          <img src="./assets/images/products/p-11-m.png" alt="Imagen de prueba" class="card__img"/>
-          <div class="card__textContainer">  <h3>Nombre de producto</h3>
-          <p>Descripcion</p>
-          <p>Precio</p>
-          </div>
-        </section>
-        <section class="card">
-        <img src="./assets/images/products/p-11-m.png" alt="Imagen de prueba" class="card__img"/>
-        <div class="card__textContainer">  <h3>Nombre de producto</h3>
-        <p>Descripcion</p>
-        <p>Precio</p>
-        </div>
-        </section>
-      </main>
+      <main class="gridImages" id="items"></main>
     </div>
     <aside class="aside">
       <h2>Carrito de compras</h3>
@@ -74,12 +24,18 @@
         <p>Descripcion</p>
         <p>Precio</p>
       </section>
-
       <div class="carrito__resumen">
         <p>Proceda a pagar el total de : | 2.00$</p>
       </div>
     </aside>
     <script type="module" src="script.js"></script>
   </body>
-
+  <template id="template">
+    <div class="card">
+      <img class="card__img"src="" alt="Imagen de prueba" />
+      <h3>Nombre de producto</h3>
+      <p class="descripcion">Descripcion</p>
+      <p id="precio">Precio</p>
+    </div>
+  </template>
 </html>
