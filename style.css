@@ -74,3 +74,83 @@ body {
   text-align: center;
   margin: 0 0 20px 0;
 }
+.shop__List{
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  padding: 5px;
+  background-color: #bd6262;
+  width: 95%;
+}
+
+.shop__Item{
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-between;
+  height: 180px;
+  background-color: #fff;
+}
+.shop__figure{
+  background-color: #f3f3f3;
+  margin: auto;
+  width: 35%;
+  height: 170px;
+  background-size: cover;
+}
+.shop__img{
+  width: 100%;
+  height: 100%;
+}
+.shop__ContainerInfo{
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shop__title{
+  margin: 20px 0 0 0;
+  font-size: 1.2rem;
+  color: #123;
+}
+.shop__paragraph{
+  font-size: 1.1rem;
+  color: bisque;
+}
+.shop__total{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.shop__buttons{
+  display: flex;
+  width: 50%;
+}
+.shop__btn{
+  width: 20%;
+  padding: 5px;
+  border-radius: 15%;
+  border: 2px solid steelblue;
+  background-color: steelblue;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: .5s border, .5s background-color ease;
+}
+.shop__btncounter{
+  border-radius: 15%;
+  border: 2px solid steelblue;
+  background-color: steelblue;
+  padding: 8px;
+  color: white;
+  margin: 0 1px;
+}
+.shop__btn:hover{
+  border: 2px solid rgba(70, 131, 180, 0.653);
+  background-color: rgba(70, 131, 180, 0.653);
+}
+.shop__total{
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
