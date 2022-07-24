@@ -17,7 +17,7 @@
       <main class="gridImages" id="items"></main>
     </div>
     <aside class="aside" id="aside">
-      <h2>Carrito de compras</h3>
+      <h2>Carrito de compras</h2>
     </aside>
     <script type="module" src="script.js"></script>
   </body>
@@ -25,7 +25,7 @@
     <div class="card">
       <img class="card__img"src="" alt="Imagen de prueba" />
       <h3>Nombre de producto</h3>
-      <p id="precio">Precio</p>
+      <p>Precio S/.<span id="total"></span></p>
       <button class="btn">Comprar</button>
     </div>
   </template>
@@ -35,17 +35,20 @@
           <img class="shop__img" src="" alt="Imagen de prueba" />
           <div class="shop__ContainerInfo">
             <h3 class="shop__title">Nombre de producto</h3>
-            <p class="shop__paragraph">precio</p>
+            <p class="shop__paragraph">Precio und: S/.<span class="preciound"></span></p>
             <div class="shop__total">
               <div class="shop__buttons">
                 <button class="shop__btn" id="menor"> - </button>
                 <p class="shop__btncounter">Cantidad del producto</p>
                 <button class="shop__btn" id="mayor"> + </button>
               </div>
-              <p class="shop__total" id="total">Precio total</p>
+              <p class="shop__total">Precio total S/.<span  id="total"></span></p>
             </div>
           </div>
       </section>
+    </div>
+    <div class="carrito__total">
+      <p></p>
     </div>
   </template>
 </html>
