@@ -1,6 +1,7 @@
 const items=document.getElementById('items')
+const card=document.getElementsByClassName('card')
 const aside=document.getElementById('aside')
-const resumen=document.getElementById('resumen')
+const input=document.getElementById('input')
 const template=document.getElementById('template').content
 const templateaside=document.getElementById('template_aside').content
 const fragment=document.createDocumentFragment()
@@ -13,6 +14,28 @@ document.addEventListener('DOMContentLoaded',()=>{
         mostrarcarrito()
     }
 })
+var element = document.getElementById("input");
+element.addEventListener("keypress", function(event) {
+	 if (event.key === "Enter") {
+ 		//alert(event.key  + " " + event.which);
+ 		event.preventDefault();
+     }
+});
+
+document.addEventListener("keyup",e=>{
+    buscar(e)
+})
+
+const buscar=e=>{
+    if(e.target.matches("#input")){
+        document.querySelectorAll(".card").forEach(elemento=> {
+            elemento.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+            ? elemento.classList.remove("filtro")
+            :elemento.classList.add("filtro")
+        })
+    } 
+}
+
 items.addEventListener('click',e =>{
     agregarcarrito(e)
 })
@@ -33,9 +56,9 @@ const printcard=data=>{
     data.forEach(productos => {
         //console.log(productos)
         template.querySelector('h3').textContent=productos.name
-        template.querySelector('p','.descripcion').textContent=productos.description
+        //template.querySelector('p','.descripcion').textContent=productos.description
         template.querySelector('img').setAttribute("src",productos.image.thumbnail)
-        template.querySelector('#precio').textContent=productos.price
+        template.querySelector('#precio').textContent=productos.sale_price
         template.querySelector('button').dataset.id=productos.id
         const clone=template.cloneNode(true)
         fragment.appendChild(clone)
@@ -52,7 +75,7 @@ const agregarcarrito = e => {
 }
 
 const enviarcarrito =objeto =>{
-    console.log(objeto)
+    //console.log(objeto)
     const producto={
         id: objeto.querySelector('.btn').dataset.id,
         name:objeto.querySelector('h3').textContent,
