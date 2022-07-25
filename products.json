@@ -6,8 +6,8 @@
     "slug": "armani-veni-vidi-vici",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-11.png",
-      "original": "/assets/images/products/p-11-m.png"
+      "thumbnail": "assets/images/products/p-11.png",
+      "original": "assets/images/products/p-11-m.png"
     },
     "price": 20.00,
     "sale_price": 17.99
@@ -19,8 +19,8 @@
     "slug": "hm-global-desi",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-22.png",
-      "original": "/assets/images/products/p-22-m.png"
+      "thumbnail": "assets/images/products/p-22.png",
+      "original": "assets/images/products/p-22-m.png"
     },
     "price": 40.00,
     "sale_price": 30.00
@@ -32,8 +32,8 @@
     "slug": "zara-solly-white-shirt",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-18.png",
-      "original": "/assets/images/products/p-18-m.png"
+      "thumbnail": "assets/images/products/p-18.png",
+      "original": "assets/images/products/p-18-m.png"
     },
     "price": 32.00,
     "sale_price": 25.00
@@ -45,8 +45,8 @@
     "slug": "hermes-carlton-london",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-14.png",
-      "original": "/assets/images/products/p-14-m.png"
+      "thumbnail": "assets/images/products/p-14.png",
+      "original": "assets/images/products/p-14-m.png"
     },
     "price": "",
     "sale_price": 15.00
@@ -58,8 +58,8 @@
     "slug": "scuba-stand-collar-topper-jacket",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-15.png",
-      "original": "/assets/images/products/p-15-m.png"
+      "thumbnail": "assets/images/products/p-15.png",
+      "original": "assets/images/products/p-15-m.png"
     },
     "price": 16.00,
     "sale_price": 12.00
@@ -71,8 +71,8 @@
     "slug": "armani-wide-leg-trousers",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-16.png",
-      "original": "/assets/images/products/p-16-m.png"
+      "thumbnail": "assets/images/products/p-16.png",
+      "original": "assets/images/products/p-16-m.png"
     },
     "price": 80.00,
     "sale_price": 60.00
@@ -84,8 +84,8 @@
     "slug": "short-sleeve-shirts-for-men",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-17.png",
-      "original": "/assets/images/products/p-17-m.png"
+      "thumbnail": "assets/images/products/p-17.png",
+      "original": "assets/images/products/p-17-m.png"
     },
     "price": 18.99,
     "sale_price": 12.99
@@ -97,8 +97,8 @@
     "slug": "blazer-and-a-neck-scarf",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-13.png",
-      "original": "/assets/images/products/p-13-m.png"
+      "thumbnail": "assets/images/products/p-13.png",
+      "original": "assets/images/products/p-13-m.png"
     },
     "price": 23.00,
     "sale_price": 13.00
@@ -110,8 +110,8 @@
     "slug": "zara-shoes-green",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-19.png",
-      "original": "/assets/images/products/p-19-m.png"
+      "thumbnail": "assets/images/products/p-19.png",
+      "original": "assets/images/products/p-19-m.png"
     },
     "price": 300.00,
     "sale_price": 250.00
@@ -123,8 +123,8 @@
     "slug": "hermes-carlton-london",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-20.png",
-      "original": "/assets/images/products/p-20-m.png"
+      "thumbnail": "assets/images/products/p-20.png",
+      "original": "assets/images/products/p-20-m.png"
     },
     "price": 20.00,
     "sale_price": 15.00
@@ -136,8 +136,8 @@
     "slug": "nike-black",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-1.png",
-      "original": "/assets/images/products/p-1-m.png"
+      "thumbnail": "assets/images/products/p-1.png",
+      "original": "assets/images/products/p-1-m.png"
     },
     "price": 15.00,
     "sale_price": 11.00
@@ -149,8 +149,8 @@
     "slug": "hermes-carlton-london",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-2.png",
-      "original": "/assets/images/products/p-2-m.png"
+      "thumbnail": "assets/images/products/p-2.png",
+      "original": "assets/images/products/p-2-m.png"
     },
 
     "price": 16.38,
@@ -163,8 +163,8 @@
     "slug": "gucci-carlton-uk",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-8.png",
-      "original": "/assets/images/products/p-8-m.png"
+      "thumbnail": "assets/images/products/p-8.png",
+      "original": "assets/images/products/p-8-m.png"
     },
     "price": 19.99,
     "sale_price": 14.99
@@ -176,8 +176,8 @@
     "slug": "regular-fit-flannel-shirt",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-4.png",
-      "original": "/assets/images/products/p-4-m.png"
+      "thumbnail": "assets/images/products/p-4.png",
+      "original": "assets/images/products/p-4-m.png"
     },
     "price": "",
     "sale_price": 8.00
@@ -189,8 +189,8 @@
     "slug": "eco-friendly-clothing-brands-that",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-5.png",
-      "original": "/assets/images/products/p-5-m.png"
+      "thumbnail": "assets/images/products/p-5.png",
+      "original": "assets/images/products/p-5-m.png"
     },
     "price": 28.00,
     "sale_price": 20.00
@@ -202,8 +202,8 @@
     "slug": "oversized-w-sweater",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-6.png",
-      "original": "/assets/images/products/p-6-m.png"
+      "thumbnail": "assets/images/products/p-6.png",
+      "original": "assets/images/products/p-6-m.png"
     },
     "price": 70.00,
     "sale_price": 55.00
@@ -215,8 +215,8 @@
     "slug": "regular-fit-crew-neck-t-shirt",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-7.png",
-      "original": "/assets/images/products/p-7-m.png"
+      "thumbnail": "assets/images/products/p-7.png",
+      "original": "assets/images/products/p-7-m.png"
     },
     "price": 16.38,
     "sale_price": 12.3
@@ -228,8 +228,8 @@
     "slug": "zara-shoes-green",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-3.png",
-      "original": "/assets/images/products/p-3-m.png"
+      "thumbnail": "assets/images/products/p-3.png",
+      "original": "assets/images/products/p-3-m.png"
     },
     "price": "",
     "sale_price": 50.00
@@ -241,8 +241,8 @@
     "slug": "women-fitted-neck-t-shirt",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-9.png",
-      "original": "/assets/images/products/p-9-m.png"
+      "thumbnail": "assets/images/products/p-9.png",
+      "original": "assets/images/products/p-9-m.png"
     },
     "price": 30.00,
     "sale_price": 28.00
@@ -254,8 +254,8 @@
     "slug": "nike-shoes",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-10.png",
-      "original": "/assets/images/products/p-10-m.png"
+      "thumbnail": "assets/images/products/p-10.png",
+      "original": "assets/images/products/p-10-m.png"
     },
     "price": "",
     "sale_price": 39.99
