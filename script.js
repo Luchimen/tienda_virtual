@@ -58,7 +58,7 @@ const printcard=data=>{
         template.querySelector('h3').textContent=productos.name
         //template.querySelector('p','.descripcion').textContent=productos.description
         template.querySelector('img').setAttribute("src",productos.image.thumbnail)
-        template.querySelector('#precio').textContent=productos.sale_price
+        template.querySelector('span').textContent=parseFloat(productos.sale_price).toFixed(2)
         template.querySelector('button').dataset.id=productos.id
         const clone=template.cloneNode(true)
         fragment.appendChild(clone)
@@ -75,11 +75,11 @@ const agregarcarrito = e => {
 }
 
 const enviarcarrito =objeto =>{
-    //console.log(objeto)
+    console.log(objeto)
     const producto={
         id: objeto.querySelector('.btn').dataset.id,
         name:objeto.querySelector('h3').textContent,
-        precio:objeto.querySelector('#precio').textContent,
+        precio:objeto.querySelector('span').textContent,
         img:objeto.querySelector('img').src,
         cantidad:1
     }
@@ -91,15 +91,19 @@ const enviarcarrito =objeto =>{
 }
 const mostrarcarrito = () =>{
     //console.log(carrito)
-    aside.innerHTML='<h3>Carrito de compras</h3>'
+    aside.innerHTML='<h2>Carrito de compras</h2>'
     Object.values(carrito).forEach(producto =>{
         templateaside.querySelector('h3').textContent=producto.name
         templateaside.querySelector('img').src=producto.img
-        templateaside.querySelector(".shop__paragraph").innerHTML= '<span>Precio Unitario: </span>'+ producto.precio
+        templateaside.querySelector(".preciound").textContent=producto.precio
         templateaside.querySelector(".shop__btncounter").textContent= producto.cantidad
-        templateaside.querySelector('#total').innerHTML= '<span>Total: </span>'+producto.cantidad * producto.precio
+        templateaside.querySelector('#total').textContent=parseFloat(producto.cantidad * producto.precio).toFixed(2)
         templateaside.querySelector('#menor').dataset.id=producto.id
         templateaside.querySelector('#mayor').dataset.id=producto.id
+        
+        const totalpagar=Object.values(carrito).reduce((acc,{cantidad,precio})=>acc+cantidad*precio,0)
+        //console.log(totalpagar)
+        templateaside.querySelector(".carrito__total").innerHTML='Total a Pagar: S/'+ parseFloat(totalpagar).toFixed(2)
         const clone=templateaside.cloneNode(true)
         fragment.appendChild(clone)
     })
