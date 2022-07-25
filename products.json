@@ -6,8 +6,8 @@
     "slug": "armani-veni-vidi-vici",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-11.png",
-      "original": "/assets/images/products/p-11-m.png"
+      "thumbnail": "assets/images/products/p-11.png",
+      "original": "assets/images/products/p-11-m.png"
     },
     "price": 20.00,
     "sale_price": 17.99
@@ -19,8 +19,8 @@
     "slug": "hm-global-desi",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-22.png",
-      "original": "/assets/images/products/p-22-m.png"
+      "thumbnail": "assets/images/products/p-22.png",
+      "original": "assets/images/products/p-22-m.png"
     },
     "price": 40.00,
     "sale_price": 30.00
