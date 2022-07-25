@@ -1,11 +1,14 @@
 const items=document.getElementById('items')
 const card=document.getElementsByClassName('card')
 const aside=document.getElementById('aside')
+const total2=document.getElementById('total2')
 const input=document.getElementById('input')
 const template=document.getElementById('template').content
 const templateaside=document.getElementById('template_aside').content
+const template_total=document.getElementById('template_total').content
 const fragment=document.createDocumentFragment()
 let carrito={}
+console.log(template_total)
 document.addEventListener('DOMContentLoaded',()=>{
     fetchData()
     //LocalStorage
@@ -91,6 +94,7 @@ const enviarcarrito =objeto =>{
 }
 const mostrarcarrito = () =>{
     //console.log(carrito)
+    total2.innerHTML=''
     aside.innerHTML='<h2>Carrito de compras</h2>'
     Object.values(carrito).forEach(producto =>{
         templateaside.querySelector('h3').textContent=producto.name
@@ -101,13 +105,16 @@ const mostrarcarrito = () =>{
         templateaside.querySelector('#menor').dataset.id=producto.id
         templateaside.querySelector('#mayor').dataset.id=producto.id
         
-        const totalpagar=Object.values(carrito).reduce((acc,{cantidad,precio})=>acc+cantidad*precio,0)
-        //console.log(totalpagar)
-        templateaside.querySelector(".carrito__total").innerHTML='Total a Pagar: S/'+ parseFloat(totalpagar).toFixed(2)
         const clone=templateaside.cloneNode(true)
         fragment.appendChild(clone)
     })
     aside.appendChild(fragment)
+    const totalpagar=Object.values(carrito).reduce((acc,{cantidad,precio})=>acc+cantidad*precio,0)
+    console.log(totalpagar)
+    template_total.querySelector('.carrito__total').innerHTML='Total a Pagar : S/.'+parseFloat(totalpagar).toFixed(2)
+    const clone2=template_total.cloneNode(true)
+    console.log(clone2)
+    total2.appendChild(clone2)
     localStorage.setItem('carrito',JSON.stringify(carrito))
 }
 
