@@ -1,11 +1,14 @@
 const items=document.getElementById('items')
 const card=document.getElementsByClassName('card')
 const aside=document.getElementById('aside')
+const total2=document.getElementById('total2')
 const input=document.getElementById('input')
 const template=document.getElementById('template').content
 const templateaside=document.getElementById('template_aside').content
+const template_total=document.getElementById('template_total').content
 const fragment=document.createDocumentFragment()
 let carrito={}
+//console.log(template_total)
 document.addEventListener('DOMContentLoaded',()=>{
     fetchData()
     //LocalStorage
@@ -44,21 +47,26 @@ aside.addEventListener('click', e =>{
 })
 const fetchData=async() =>{
     try{
-        const res=await fetch('products.json')
+        const res=await fetch('https://api.mercadolibre.com/sites/MPE/search?category=MPE1747');
         const data=await res.json()
-        printcard(data)
-        //console.log(data)
+        const datacard=data.results
+        printcard(datacard)
+        console.log(data)
     }catch (error){
         console.log(error)
     }
 }
-const printcard=data=>{
-    data.forEach(productos => {
+const printcard=datacard=>{
+    datacard.forEach(productos => {
         //console.log(productos)
-        template.querySelector('h3').textContent=productos.name
+        template.querySelector('h3').textContent=productos.title
         //template.querySelector('p','.descripcion').textContent=productos.description
-        template.querySelector('img').setAttribute("src",productos.image.thumbnail)
-        template.querySelector('span').textContent=parseFloat(productos.sale_price).toFixed(2)
+        let cambio=productos.thumbnail
+        //console.log(cambio)
+        cambio=cambio.replace('-I','-O')
+        //console.log(cambio)
+        template.querySelector('img').setAttribute("src",cambio)
+        template.querySelector('span').textContent=parseFloat(productos.price).toFixed(2)
         template.querySelector('button').dataset.id=productos.id
         const clone=template.cloneNode(true)
         fragment.appendChild(clone)
@@ -75,7 +83,7 @@ const agregarcarrito = e => {
 }
 
 const enviarcarrito =objeto =>{
-    console.log(objeto)
+    //console.log(objeto)
     const producto={
         id: objeto.querySelector('.btn').dataset.id,
         name:objeto.querySelector('h3').textContent,
@@ -91,6 +99,7 @@ const enviarcarrito =objeto =>{
 }
 const mostrarcarrito = () =>{
     //console.log(carrito)
+    total2.innerHTML=''
     aside.innerHTML='<h2>Carrito de compras</h2>'
     Object.values(carrito).forEach(producto =>{
         templateaside.querySelector('h3').textContent=producto.name
@@ -101,13 +110,16 @@ const mostrarcarrito = () =>{
         templateaside.querySelector('#menor').dataset.id=producto.id
         templateaside.querySelector('#mayor').dataset.id=producto.id
         
-        const totalpagar=Object.values(carrito).reduce((acc,{cantidad,precio})=>acc+cantidad*precio,0)
-        //console.log(totalpagar)
-        templateaside.querySelector(".carrito__total").innerHTML='Total a Pagar: S/'+ parseFloat(totalpagar).toFixed(2)
         const clone=templateaside.cloneNode(true)
         fragment.appendChild(clone)
     })
     aside.appendChild(fragment)
+    const totalpagar=Object.values(carrito).reduce((acc,{cantidad,precio})=>acc+cantidad*precio,0)
+    //console.log(totalpagar)
+    template_total.querySelector('.carrito__total').innerHTML='Total a Pagar : S/.'+parseFloat(totalpagar).toFixed(2)
+    const clone2=template_total.cloneNode(true)
+    //console.log(clone2)
+    total2.appendChild(clone2)
     localStorage.setItem('carrito',JSON.stringify(carrito))
 }
 
