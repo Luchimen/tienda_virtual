@@ -11,6 +11,7 @@ let carrito={}
 //console.log(template_total)
 document.addEventListener('DOMContentLoaded',()=>{
     fetchData()
+    fethCategory()
     //LocalStorage
     if(localStorage.getItem('carrito')){
         carrito=JSON.parse(localStorage.getItem('carrito'))
@@ -51,11 +52,20 @@ const fetchData=async() =>{
         const data=await res.json()
         const datacard=data.results
         printcard(datacard)
-        console.log(data)
     }catch (error){
         console.log(error)
     }
 }
+const fethCategory = async ()=>{
+    try {
+        const res = await fetch('https://api.mercadolibre.com/sites/MPE')
+        const {categories} = await res.json()
+        console.log(categories);
+    } catch (error) {
+        throw new Error(error)
+    }
+}
+
 const printcard=datacard=>{
     datacard.forEach(productos => {
         //console.log(productos)
