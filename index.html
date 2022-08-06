@@ -14,39 +14,51 @@
           <input class="form__input" type="text" id="input" />
         </form>
       </nav>
+      <div class="category">
+        <h3 class="category__title">Categorias</h3>
+        <div class="category__list">
+          <a href="#" class="category__item">Agro</a
+          ><a href="#" class="category__item">Deportes</a
+          ><a href="#" class="category__item">Eventualidades</a
+          ><a href="#" class="category__item">Mecanica</a
+          ><a href="#" class="category__item">Libros</a
+          ><a href="#" class="category__item">Matematica</a>
+        </div>
+      </div>
       <main class="gridImages" id="items"></main>
     </div>
     <aside class="aside">
       <div id="aside"></div>
-      <div id="total2">
-      </div>
+      <div id="total2"></div>
     </aside>
     <script type="module" src="script.js"></script>
   </body>
   <template id="template">
     <div class="card">
-      <img class="card__img"src="" alt="Imagen de prueba" />
+      <img class="card__img" src="" alt="Imagen de prueba" />
       <h3>Nombre de producto</h3>
       <p>Precio S/.<span id="total"></span></p>
       <button class="btn">Comprar</button>
     </div>
   </template>
   <template id="template_aside">
-    <div class="shop_List">  
+    <div class="shop_List">
       <section class="shop__Item">
-          <img class="shop__img" src="" alt="Imagen de prueba" />
-          <div class="shop__ContainerInfo">
-            <h3 class="shop__title">Nombre de producto</h3>
-            <p class="shop__paragraph">Precio und: S/.<span class="preciound"></span></p>
-            <div class="shop__total">
-              <div class="shop__buttons">
-                <button class="shop__btn" id="menor"> - </button>
-                <p class="shop__btncounter">Cantidad del producto</p>
-                <button class="shop__btn" id="mayor"> + </button>
-              </div>
-              <p class="shop__total">Precio total S/.<span  id="total"></span></p>
+        <img class="shop__img" src="" alt="Imagen de prueba" />
+        <div class="shop__ContainerInfo">
+          <h3 class="shop__title">Nombre de producto</h3>
+          <p class="shop__paragraph">
+            Precio und: S/.<span class="preciound"></span>
+          </p>
+          <div class="shop__total">
+            <div class="shop__buttons">
+              <button class="shop__btn" id="menor">-</button>
+              <p class="shop__btncounter">Cantidad del producto</p>
+              <button class="shop__btn" id="mayor">+</button>
             </div>
+            <p class="shop__total">Precio total S/.<span id="total"></span></p>
           </div>
+        </div>
       </section>
     </div>
   </template>
